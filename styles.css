@@ -87,13 +87,13 @@ span {
     min-width: 240px;
 }
 
-.nav-container {
+.navegador-container {
     width: 100%;
     position: fixed;
     bottom: 0%;
 }
 
-.nav-list {
+.navegador-list {
     margin: 0;
     border-top: 1px solid lightgray;
     display: none;
@@ -102,7 +102,7 @@ span {
     background: white;
 }
 
-.nav-a {
+.navegador-a {
     margin: 0;
     margin-top: 2px;
     height: 55px;
@@ -112,23 +112,23 @@ span {
     justify-content: center;
 }
 
-.nav-figure {
+.navegador-figure {
     margin: 0;
     text-align: center;
 
 }
 
-.nav-a small {
+.navegador-a small {
     font-size: 14px;
     color: rgba(0, 0, 0, 0.4);
 }
 
-.nav-a i{
+.navegador-a i{
     font-size: 22px;
     color: rgba(0, 0, 0, 0.4);
 }
 
-.nav-a i:hover {
+.navegador-a i:hover {
     font-weight: 800;
     color: rgba(0, 0, 0, 0.9);
 }
@@ -141,7 +141,7 @@ span {
     
     .container h1 {
         font-family: 'Merriweather', serif;
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .container p {
@@ -149,7 +149,7 @@ span {
         font-size: 12px;
     }
 
-    .nav-list {
+    .navegador-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
