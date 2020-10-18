@@ -1,0 +1,89 @@
+.carousel-item img {
+    height: 20vh;
+    object-fit: cover;
+    filter: grayscale(60%);
+}
+
+.carousel {
+    position: relative;
+}
+
+span {
+    text-align: center;
+}
+
+.container__height {
+    height: 220px;
+}
+
+.container h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+}
+
+.container p {
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.selection {
+    height: 36px;
+    width: 100%;
+    padding: auto 10px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.label {
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 40px;
+    margin-bottom: 120px;
+}
+
+
+.label input[type="checkbox"] {
+    -webkit-appearance: none;
+}
+
+.label input[type="checkbox"]:checked ~ .uno {
+    background-color: rgb(240, 240, 41);
+}
+
+.label input[type="checkbox"]:checked ~ .dos {
+    background-color: rgb(75, 141, 163);
+}
+
+.label input[type="checkbox"]:checked ~ .tres {
+    background-color: rgb(155, 155, 155);
+}
+
+.label input[type="checkbox"]:checked ~ .cuatro {
+    background-color: rgb(209, 106, 228);
+}
+
+.label input[type="checkbox"]:checked ~ .cinco {
+    background-color: rgb(120, 120, 255);
+}
+
+.label input[type="checkbox"]:checked ~ .seis {
+    background-color: rgb(255, 77, 77);
+}
+
+.politic {
+    
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+.container__height {
+    min-width: 240px;
+}
